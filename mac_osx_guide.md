@@ -322,6 +322,8 @@ $ brew install vim --with-lua --with-python
 ```
 
 #### Setup [vimfilers]
+[Important] There are some vim plugin for python, golang and nodeJS use these command to install YouCompleteMe or other plugins so you have to finish python, golang and nodeJS installation first.
+
 ```sh
 $ cd ~/Documents
 $ git clone https://github.com/whlin/vimfilers.git
