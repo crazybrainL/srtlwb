@@ -51,3 +51,5 @@ Requires:
     - [link1](http://coopermaa2nd.blogspot.tw/2012/12/easyinstall-pip.html)
 * [How to change default install location for pip](http://stackoverflow.com/questions/24174821/how-to-change-default-install-location-for-pip)
 * [Install a Python package into a different directory using pip](http://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
+
+[pyenv]: <https://github.com/yyuu/pyenv-installer>
