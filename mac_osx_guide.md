@@ -288,6 +288,13 @@ $ brew install node
 #### What is npm?
 npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing.
 
+#### what is ~/.npm dir for?
+~/.npm is a cache that npm uses to avoid re-downloading the same package multiple times. There's no harm in removing it. You can empty it with the command:
+```sh
+npm cache clean
+```
+
+
 #### Installing npm packages locally or globally
 There are two ways to install npm packages: locally or globally. You choose which kind of installation to use based on how you want to use the package.
 
