@@ -56,10 +56,11 @@ Homebrew installs packages to their own directory and then symlinks their files 
 4. lua    
 5. tree
     - This progeam can show the file list.
-6. ...
+6. tmux
+7. ...
 
 ```sh
-$ brew install cmake cscope ctags lua tree ...
+$ brew install cmake cscope ctags lua tree tmux ...
 ```
 
 After installing, you could
