@@ -22,6 +22,10 @@
     - Plugin: [vagrant-vbguest]
 * Setup [rc]
 
+### To Do
+* Update dotfilers installation
+* New brew_install.sh for new environment setup.
+
 ---
 
 ## Software
