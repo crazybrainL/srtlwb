@@ -1,9 +1,9 @@
 # whlin's Mac OS X Guide
 
 ### [Software](#software)
-* iterm2
-* Xcode
-* [virtualbox and vagrant](#virtualbox-vagrant)
+* [iterm2](#iterm2)
+* [Xcode](#xcode)
+* [Virtualbox and Vagrant](#virtualbox-vagrant)
     - Plugin: [vagrant-vbguest]
 
 ### Package And Programming Language:
@@ -20,12 +20,13 @@
 
 ---
 
-<a name="software"></a>
 ## Software
+<a name="iterm2"></a>
 ### iterm2
 
 Download stable releases from following link: [iterm2]
 
+<a name="xcode"></a>
 ### Xcode
 
 * Install [Xcode] from the App store or the Apple developer website.
