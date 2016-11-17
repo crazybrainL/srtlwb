@@ -60,5 +60,22 @@ $ which cmake cscope ctags lua tree
 /usr/local/bin/lua
 /usr/local/bin/tree
 ```
+
+### vim
+#### Install vim
+```sh
+$ brew install vim --with-lua --with-python
+```
+
+#### Setup [vimfilers]
+[Important] There are some vim plugin for python, golang and nodeJS use these command to install YouCompleteMe or other plugins so you have to finish python, golang and nodeJS installation first.
+
+#### Install haskell
+```sh
+$ brew install haskell-platform
+$ cabal install hasktags
+$ cabal install hlint
+```
+
 ## Reference
 [homebrew](http://brew.sh/)

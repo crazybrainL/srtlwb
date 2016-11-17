@@ -5,23 +5,14 @@
 * Xcode
 
 ### Package And Programming Language:
-* [homebrew]
-* [dotfilers]
-* zsh
-    - Install zsh
-    - Install oh-my-zsh
-    - Install zsh-completions
-    - Setup [zshrc]
-* [golang]
-* python
-    - Simple Python version management: [pyenv]
-* [node]
-* vim
-    - Setup [vimfilers]
-* haskell
+* [homebrew](https://github.com/whlin/srtlwb/blob/master/brew_note.md)
+* [dotfilers](https://github.com/whlin/dotfiles)
+* [zsh](https://github.com/whlin/srtlwb/blob/master/zshrc_note.md)
+* [golang](https://github.com/whlin/srtlwb/blob/master/golang_note.md)
+* [python](https://github.com/whlin/srtlwb/blob/master/python_note.md)
+* [node](https://github.com/whlin/srtlwb/blob/master/nodejs_note.md)
 * [virtualbox] and [vagrant]
     - Plugin: [vagrant-vbguest]
-* Setup [rc]
 
 ### To Do
 * Update dotfilers installation
@@ -41,43 +32,6 @@ Download stable releases from following link: [iterm2]
 
 ```sh
 $ xcode-select --install
-```
-
-## Package And Programming Language:
-### Golang
-
-[Download the archive](https://golang.org/dl/) and extract it into /usr/local, creating a Go tree in /usr/local/go.
-For example:
-```sh
-tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
-```
-
-Add /usr/local/go/bin to the PATH environment variable. (~/.zshec has already setting)
-```sh
-export PATH=$PATH:/usr/local/go/bin
-```
-
-### vim
-#### Install vim
-```sh
-$ brew install vim --with-lua --with-python
-```
-
-#### Setup [vimfilers]
-[Important] There are some vim plugin for python, golang and nodeJS use these command to install YouCompleteMe or other plugins so you have to finish python, golang and nodeJS installation first.
-
-```sh
-$ cd ~/Documents
-$ git clone https://github.com/whlin/vimfilers.git
-$ cd vimfiles
-$ ./install_unix.sh
-```
-
-#### Install haskell
-```sh
-$ brew install haskell-platform
-$ cabal install hasktags
-$ cabal install hlint
 ```
 
 ### Virtualbox and Vagrant
