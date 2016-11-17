@@ -57,3 +57,5 @@ $ git clone https://github.com/whlin/zshrc.git
 $ cd ~/Documents/zshrc
 $ ./install_unix.sh
 ```
+
+[icarus4]: <http://icarus4.logdown.com/posts/177661-from-bash-to-zsh-setup-tips>
