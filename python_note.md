@@ -83,7 +83,7 @@ $ pip uninstall [package_name]
 For figure out the site-package localation in difference virtual environment.
 You can use this command:
 ```sh
-$ python -c "import site; print("\n".join(site.getsitepackages()))"
+$ python -c "import site; print('\n'.join(site.getsitepackages()))"
 
 # For pyenv python 2.7.12 version
 /Users/whlin/.pyenv/versions/2.7.12/Python.framework/Versions/2.7/lib/python2.7/site-packages
