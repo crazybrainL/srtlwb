@@ -1,4 +1,9 @@
 # zsh note
+
+#### Notice
+
+Install zsh-rc by using [dotfiles](https://github.com/whlin/dotfiles)
+
 #### Install zsh
 ```sh
 $ brew install zsh
