@@ -1,0 +1,46 @@
+[build]
+    Description: Build an image from a Dockerfile
+    ref: https://docs.docker.com/engine/reference/commandline/build/
+
+    ex: sudo docker build -t="IMAGE_NAME" .
+
+[image]
+    List all image:
+        docker image list
+
+    Remove single image:
+        1. docker rmi image_name:version/image-id
+        2. docker image rm 3f3928767182
+        3. docker image rm tellus_email_dev
+
+        以上三個在有些情況不一定能刪除成功, 需要不斷嘗試.
+
+
+    Remove all images
+        docker rmi $(docker images -qf "dangling=true")
+
+    Note: 刪除 image 前, 要先確認 是否有其他 container 有使用該 image 資源建立.
+          有的話, 如欲 刪除 image, 則要先將該 container 移除後, 方可刪除 image
+
+[container]
+    Run container:
+        docker run -it -v `pwd`:/usr/maven:rw maven_dev:latest /bin/bash
+        note: 將 `pwd` 的路徑連結同步到 container 裡的 /usr/maven
+              執行 container maven_dev, 版本是 latest
+              利用這個 container 執行 /bin/bash
+
+
+    How to continue a docker which is exited:
+        If you have a named container then it can be started by running
+
+            1. docker container start container_name
+
+        where container_name is name of the container that must be given at the time of creating container. 
+
+        
+            2. docker exec -it <container-id> /bin/bash
+
+        ref: https://stackoverflow.com/questions/21928691/how-to-continue-a-docker-which-is-exited
+
+
+Container的生命週期: https://joshhu.gitbooks.io/dockercommands/content/Containers/concepts.html
